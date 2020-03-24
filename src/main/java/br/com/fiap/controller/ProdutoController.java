@@ -32,5 +32,10 @@ public class ProdutoController {
 		model.addAttribute("produto", repository.findById(id));
 		return "produto-detalhe";
 	}
+	
+	@RequestMapping(value = "/produto/new", method = RequestMethod.GET)
+	public String openSave() {
+		return "produto-novo";
+	}
 
 }

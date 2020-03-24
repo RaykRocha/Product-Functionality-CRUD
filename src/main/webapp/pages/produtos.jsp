@@ -41,7 +41,7 @@
 
 				<p class="toolbar">
 
-					<a class="create btn btn-default" href="XXXXXXXX">Novo Produto</a>
+					<a class="create btn btn-default" href="${contextPath}/produto/new">Novo Produto</a>
 
 					<span class="alert"></span>
 				</p>
