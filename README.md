@@ -11,13 +11,15 @@
   - import the project into [eclipse](https://www.eclipse.org) and create a [tomcat](http://tomcat.apache.org) server
   - start the server
   - access
-  ```sh
+  ```
 http://localhost:8080/produtos-mvc/produto
 ```
 ## Tasklists
-- [x] reating listing functionality
+- [x] Creating listing functionality
 - [x] Creation of details functionality
 - [ ] Creation of the registration functionality
 - [ ] Creating change functionality
 - [ ] Creation of the edit functionality
 
+<img src="img/home.png" width="400">
+<img src="img/detalhes.png" width="400">
