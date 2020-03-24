@@ -20,3 +20,7 @@ http://localhost:8080/produtos-mvc/produto
 *[ ]Creation of the registration functionality
 *[ ]Creating change functionality
 *[ ]Creation of the edit functionality
+
+- [x] Marked item
+ - [ ] Unmarked item
+ - Ordinary (non-task) item
