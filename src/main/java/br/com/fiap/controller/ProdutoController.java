@@ -29,9 +29,7 @@ public class ProdutoController {
 	@RequestMapping(value = "/produto/{id}", method = RequestMethod.GET)
 	public String findById(@PathVariable("id") long id, Model model) {
 
-		ProdutoModel produtoDetalhe = repository.findById(id);
-		model.addAttribute("produto-detalhe", produtoDetalhe);
-
+		model.addAttribute("produto", repository.findById(id));
 		return "produto-detalhe";
 	}
 

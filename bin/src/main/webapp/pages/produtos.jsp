@@ -65,9 +65,8 @@
 									<form action="XXXXXX" method="get">
 
 										<a class="btn btn-success btn-xs" href="${contextPath}/produto/${produto.id}">Detalhes</a>
-										<a class="btn btn-warning btn-xs" href="XXXXXXXX">Editar</a>
-										<input type="submit" value="Excluir"
-											class="btn btn-danger btn-xs">
+										<a class="btn btn-warning btn-xs" href="XXXXXXXX">Editar</a> <input
+											type="submit" value="Excluir" class="btn btn-danger btn-xs">
 									</form>
 
 								</td>
