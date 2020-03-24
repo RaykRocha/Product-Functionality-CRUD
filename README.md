@@ -21,5 +21,8 @@ http://localhost:8080/produtos-mvc/produto
 - [ ] Creating change functionality
 - [ ] Creation of the edit functionality
 
-<img src="img/home.png" width="400">
-<img src="img/detalhes.png" width="400">
+
+## Take a look
+<img src="img/look0.png">
+
+
