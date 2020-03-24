@@ -15,12 +15,9 @@
 http://localhost:8080/produtos-mvc/produto
 ```
 ## Tasklists
--[x]Creating listing functionality
--[x]Creation of details functionality
-*[ ]Creation of the registration functionality
-*[ ]Creating change functionality
-*[ ]Creation of the edit functionality
+- [x] reating listing functionality
+- [x] Creation of details functionality
+- [ ] Creation of the registration functionality
+- [ ] Creating change functionality
+- [ ] Creation of the edit functionality
 
-- [x] Marked item
- - [ ] Unmarked item
- - Ordinary (non-task) item
