@@ -1,4 +1,4 @@
-# *Product Functionality (CRUD)*
+# **Product Functionality (CRUD)**
 ## Project created in microservice and web engineering classes in java spring mvc
 
 • Start implementing a feature using Spring MVC.
@@ -15,7 +15,8 @@
 http://localhost:8080/produtos-mvc/produto
 ```
 ## Tasklists
--  [x]Creating listing functionality
--  [x]Creation of details functionality
--  []Creation of the registration functionality
--  [x]
+* [x]Creating listing functionality
+* [x]Creation of details functionality
+* [ ]Creation of the registration functionality
+* [ ]Creating change functionality
+* [ ]Creation of the edit functionality
