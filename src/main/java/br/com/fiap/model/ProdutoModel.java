@@ -4,26 +4,29 @@ public class ProdutoModel {
 
 	private long id;
 	private String nome;
-	private String Sku;
-	private String Descricao;
-	private Double preco;
+	private String sku;
+	private String descricao;
+	private double preco;
 	private String caracteristicas;
 
-	public ProdutoModel(long id, String nome, String sku, String descricao, Double preco, String caracteristicas) {
+	public ProdutoModel() {
+	}
+
+	public ProdutoModel(Long id, String nome, String sku, String descricao, double preco, String caracteristicas) {
 		super();
 		this.id = id;
 		this.nome = nome;
-		Sku = sku;
-		Descricao = descricao;
+		this.sku = sku;
+		this.descricao = descricao;
 		this.preco = preco;
 		this.caracteristicas = caracteristicas;
 	}
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -36,26 +39,26 @@ public class ProdutoModel {
 	}
 
 	public String getSku() {
-		return Sku;
+		return sku;
 	}
 
 	public void setSku(String sku) {
-		Sku = sku;
+		this.sku = sku;
 	}
 
 	public String getDescricao() {
-		return Descricao;
+		return descricao;
 	}
 
 	public void setDescricao(String descricao) {
-		Descricao = descricao;
+		this.descricao = descricao;
 	}
 
-	public Double getPreco() {
+	public double getPreco() {
 		return preco;
 	}
 
-	public void setPreco(Double preco) {
+	public void setPreco(double preco) {
 		this.preco = preco;
 	}
 
@@ -66,4 +69,5 @@ public class ProdutoModel {
 	public void setCaracteristicas(String caracteristicas) {
 		this.caracteristicas = caracteristicas;
 	}
+
 }
