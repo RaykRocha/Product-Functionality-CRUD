@@ -22,7 +22,4 @@ http://localhost:8080/produtos-mvc/produto
 - [ ] Creation of the edit functionality
 
 
-## Take a look
-<img src="img/look0.png">
-
 
