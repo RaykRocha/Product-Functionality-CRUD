@@ -17,8 +17,8 @@ http://localhost:8080/produtos-mvc/produto
 ## Tasklists
 - [x] Creating listing functionality
 - [x] Creation of details functionality
-- [ ] Creation of the registration functionality
-- [ ] Creating change functionality
+- [x] Creation of the registration functionality
+- [x] Creating change functionality
 - [ ] Creation of the edit functionality
 
 
