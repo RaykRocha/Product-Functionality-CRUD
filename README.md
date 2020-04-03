@@ -8,9 +8,9 @@
 • Understand the passage of information between View, Controller and Model.
 
 ## Usage
-  - import the project into [eclipse](https://www.eclipse.org) and create a [tomcat](http://tomcat.apache.org) server
-  - start the server
-  - access
+  - Import the project into [eclipse](https://www.eclipse.org) and create a [tomcat](http://tomcat.apache.org) server
+  - Start the server
+  - Access
   ```
 http://localhost:8080/produtos-mvc/produto
 ```
