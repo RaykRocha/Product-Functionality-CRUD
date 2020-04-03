@@ -41,8 +41,9 @@ public class ProdutoRepository {
 	public void update(ProdutoModel produtoModel) {
 		produtos.put(produtoModel.getId(), produtoModel);
 	}
-	public void delete(ProdutoModel produtoModel) {
-		produtos.put(produtoModel.getId(), produtoModel);
+	
+	public void delete(long id) {
+		produtos.remove(id);
 	}
 
 }

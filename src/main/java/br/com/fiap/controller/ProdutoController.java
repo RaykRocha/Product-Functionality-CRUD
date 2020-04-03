@@ -11,7 +11,7 @@ import br.com.fiap.repository.ProdutoRepository;
 
 @Controller
 public class ProdutoController {
-	
+
 	ProdutoRepository repository = new ProdutoRepository();
 
 	@RequestMapping(value = "/produto", method = RequestMethod.GET)
@@ -20,45 +20,52 @@ public class ProdutoController {
 		model.addAttribute("produtos", repository.findAll());
 		return "produtos";
 	}
+	
+	@RequestMapping(value = "/produto/delete", method = RequestMethod.GET)
+	public String findAllDelete(Model model) {
+
+		model.addAttribute("produtos", repository.findAll());
+		return "produto-delete-sucesso";
+	}
 
 	@RequestMapping(value = "/produto/{id}", method = RequestMethod.GET)
 	public String findById(@PathVariable("id") long id, Model model) {
-		
+
 		model.addAttribute("produto", repository.findById(id));
 		return "produto-detalhe";
 	}
-	
+
 	@RequestMapping(value = "/produto/new", method = RequestMethod.GET)
 	public String openSave() {
 		return "produto-novo";
 	}
-	
+
 	@RequestMapping(value = "/produto/new", method = RequestMethod.POST)
 	public String save(ProdutoModel produtoModel) {
-		
+
 		repository.save(produtoModel);
 		return "produto-novo-sucesso";
 	}
-	
+
 	@RequestMapping(value = "/update/{id}", method = RequestMethod.GET)
 	public String openUpdate(@PathVariable("id") long id, Model model) {
-		
+
 		model.addAttribute("produto", repository.findById(id));
 		return "produto-editar";
 	}
-	
+
 	@RequestMapping(value = "/produto/update", method = RequestMethod.POST)
 	public String update(Model model, ProdutoModel produtoModel) {
 		repository.update(produtoModel);
 		model.addAttribute("produtos", repository.findAll());
 		return "produtos";
 	}
-	
-	@RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
+
+	@RequestMapping(value = "delete/{id}", method = RequestMethod.DELETE)
 	public String delete(@PathVariable("id") long id, Model model) {
-		
-		model.addAttribute("produto", repository.findById(id));
-		return "produtos";
+		repository.delete(id);
+		model.addAttribute("produto", repository.findAll());
+		return "redirect:/produto/delete";
 	}
 
 }

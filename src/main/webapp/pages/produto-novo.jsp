@@ -60,7 +60,7 @@
 						
 						<div class="form-group">
 							<label class="control-label" for="preco">Preço:</label>
-							<input type="text" id="preco" name="preco" class="form-control" />
+							<input type="number" id="preco" name="preco" class="form-control" />
 							<font color="red"></font><br/>
 						</div>
 						

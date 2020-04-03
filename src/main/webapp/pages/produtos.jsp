@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!DOCTYPE html>
 <html>
@@ -63,12 +64,12 @@
 							
 							<td class="actions">
 							
-								<form action="${contextPath}/delete/${produto.id}" method="">
+								<form:form action="${contextPath}/delete/${produto.id}" method="delete">
 								
 									<a class="btn btn-success btn-xs" href="${contextPath}/produto/${produto.id}">Detalhes</a>
 									<a class="btn btn-warning btn-xs" href="${contextPath}/update/${produto.id}">Editar</a>
 									<input type="submit" value="Excluir" class="btn btn-danger btn-xs">
-								</form>
+								</form:form>
 								
 							</td>
 						</tr>

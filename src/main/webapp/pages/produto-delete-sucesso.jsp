@@ -8,7 +8,7 @@
 
 <head>
 
-<title>Produtos - Cadastro com Sucesso</title>
+<title>Produtos - Deletado com Sucesso</title>
 
 <spring:url value="/resources/css" var="css" />
 <spring:url value="/resources/js" var="js" />
@@ -42,9 +42,10 @@
 
 					<h2>Produto</h2>
 
-					<div class="alert alert-success" role="alert">
-						<h3>Produto cadastro com sucesso</h3>
+					<div class="alert alert-danger" role="alert">
+						<h3>Produto deletado com sucesso</h3>
 					</div>
+
 					<a class="btn btn-primary" href="${contextPath}/produto"
 						role="button">Voltar</a>
 				</div>
