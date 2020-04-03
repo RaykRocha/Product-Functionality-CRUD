@@ -19,7 +19,9 @@ http://localhost:8080/produtos-mvc/produto
 - [x] Creation of details functionality
 - [x] Creation of the registration functionality
 - [x] Creating change functionality
-- [ ] Creation of the edit functionality
+- [x] Creation of the edit functionality
+- [x] Creation of the delete functionality
+- [x] Redirect e Forward
 
 
 
