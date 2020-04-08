@@ -7,10 +7,19 @@ import java.util.Map;
 import br.com.fiap.model.ProdutoModel;
 
 public class ProdutoRepository {
+	
+	private static ProdutoRepository instance;
 
 	private static Map<Long, ProdutoModel> produtos;
+	
+	public static ProdutoRepository getInstance() {
+		if(instance == null) {
+			instance = new ProdutoRepository();
+		}
+		return instance;
+	}
 
-	public ProdutoRepository() {
+	private ProdutoRepository() {
 
 		produtos = new HashMap<Long, ProdutoModel>();
 

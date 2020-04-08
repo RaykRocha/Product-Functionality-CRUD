@@ -67,7 +67,7 @@
 
 						<div class="form-group">
 							<label class="control-label" for="preco">Preço:</label> <input
-								type="number" name="preco" id="preco" value="${produto.preco}"
+								type="numberfi" name="preco" id="preco" value="${produto.preco}"
 								class="form-control" maxlength="14" size="15" />
 						</div>
 

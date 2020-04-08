@@ -22,6 +22,8 @@ http://localhost:8080/produtos-mvc/produto
 - [x] Creation of the edit functionality
 - [x] Creation of the delete functionality
 - [x] Redirect e Forward
+- [x] Design Pattern Singleton
+- [x] Redirect Messages
 
 
 
